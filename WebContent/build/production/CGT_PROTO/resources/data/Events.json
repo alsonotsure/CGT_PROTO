@@ -1,0 +1,120 @@
+{
+  "success":  true,
+  "events":
+    [
+        {
+            "eventId": "E-0001",
+            "title": "Event Number 1 Title that is so long it will have to wrap around the next line in event grid and event summary display.",
+            "activePeriod": 
+            	[
+            		{
+            			"start": "2020-04-10T07:00:00Z",
+            			"end": "2020-04-10T08:00:00Z",
+            			"qualifier": "Daily"
+            		},
+            		{
+            			"start": "2020-03-10T07:00:00Z",
+            			"end": "2020-03-10T08:00:00Z"
+            		},
+            		{
+            			"start": "2020-08-10T07:00:00Z",
+            			"end": "2020-08-10T08:00:00Z"
+            		}
+            	],
+            "onHotList": true,
+            "country": "SY",
+            "comments": 
+            {
+              "events" :
+              [
+                {
+                  "string": "<b>These are the event comments.</b><br>Another line" 
+                }
+              ]
+            },
+            "links":
+            [
+              {
+                "href" : "https://docs.sencha.com/extjs/7.2.0",
+                "linkName" : "Sencha",
+                "description": "This is the Sencha website.",
+                "checked": true
+              },
+              {
+                "href" : "https://docs.sencha.com/extjs/7.0.0",
+                "linkName" : "Sencha 7.0",
+                "description": "This is the Sencha website 7.0.",
+                "checked": false
+              }
+            ]  
+        },
+        {
+            "eventId": "E-0002",
+            "title": "Event Number 2",
+            "activePeriod": null,
+            "onHotList": false
+        },
+        {
+            "eventId": "E-0003",
+            "title": "Event # Three",
+            "activePeriod": 
+            [ 
+              null,
+	    		{
+	    			"start": "2020-08-10T07:00:00Z",
+	    			"end": "2020-08-10T08:00:00Z"
+	    		}
+            ],
+            "comments":
+            {
+              "events": 
+              [
+                {
+                  "string" : "New comments in array"
+                },
+                {
+                  "string" : "Second comments in array"
+                }
+              ]
+            }
+        },
+        {
+            "eventId": "E-0004",
+            "title": "Event # four",
+            "onHotList": null
+        },
+        {
+            "eventId": "E-0005",
+            "title": "Event # five",
+            "onHotList": true,
+            "activePeriod": 
+            	[
+            		{
+            			"start": "2020-05-10T07:00:00Z",
+            			"end": "2020-05-10T08:00:00Z"
+            		}
+            	]
+        },
+        {
+            "eventId": "E-0006",
+            "title": "Event # six",
+            "onHotList": true,
+            "activePeriod": 
+            	[
+            		{
+            			"start": null,
+            			"end": null,
+            			"qualifier": "Unknown"
+            		}
+            	],
+            "flightBan": 
+            [ 
+	    		{
+	    			"start": "2020-08-10T07:00:00Z",
+	    			"end": "2020-08-10T08:00:00Z",
+	    			"qualifier" : "Default"
+	    		}
+            ]
+        } 
+    ]
+}
